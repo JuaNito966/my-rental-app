@@ -1,0 +1,27 @@
+@import '../../assets/styles/variables';
+
+
+.starRating {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+
+  .full, .half, .empty {
+    margin-right: 0.25rem;
+    font-size: 1.2rem; 
+  }
+
+  .full, .half {
+    color: $primary-color; 
+  }
+
+  .empty {
+    color: #ccc;    
+  }
+
+  .text {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+  }
+}

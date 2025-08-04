@@ -1,0 +1,59 @@
+@import '../../assets/styles/variables';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background: $white;
+  border-bottom: 1px solid $gray-light;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: $text-dark;
+  text-decoration: none;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+
+  a {
+    text-decoration: none;
+    color: $text-dark;
+    font-size: 1.1rem;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+}
+
+.cartLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 0.1rem;
+
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: $text-dark;
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.count {
+  background: $primary-color;
+  color: $white;
+  font-weight: bold;
+
+  border-radius: 50%;
+  padding: 0.2rem 0.4rem;
+  font-size: 0.9rem;
+}
